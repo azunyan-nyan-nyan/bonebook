@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <title>bone_1</title>
+
+<head>
+ <meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="viewport" content="width=100%,height=100%, initial-scale=1">
+
+<style>
+
+  @-ms-viewport{
+
+  width: device-width;
+
+   height: device-height;
+
+}
+
+
+@keyframes bonezapple{
+0%{top:0px;}
+100%{top:200px;}
+}
+body{
+
+background-image:url(https://media.giphy.com/media/25KPnjJROaoFJI1Muj/giphy.gif);
+background-size:cover;
+height:100%;
+}
+
+a.bone_grow{
+
+position:absolute;
+
+display:block;
+
+left:0;
+
+right:0;
+
+margin-left:auto;
+
+margin-right:auto;
+
+top:50%;
+transform: translateY(-50%);
+
+}
+
+img.bone_banner{
+z-index:1;
+animation-name:bonezapple;
+}
+
+img.bone_span{
+
+width:411px;
+padding:3px;
+height:auto;
+position:sticker;
+
+display:block;
+
+left:0;
+
+right:0;
+top:50%;
+
+}
+</style>
+
+<body>
+
+<a class="bone_banner" href="http://bonebook.bandcamp.com/album/vol1" target="blank"><img class="bone_banner" src="https://media.giphy.com/media/khzV2XjnNVDkzj43bs/giphy.gif"></a>
+<a class="bone_span" href="https://www.bonebook.us/">
+<img class="bone_span" src="https://media.giphy.com/media/1g2yY67o8aP7lc3f6C/giphy.gif">
+</a>
+
+
+
+<iframe src="https://youtube.com/embed/xbZWwc8GKv8?autoplay=1&loop" allowfullscreen="" width="1" height="1" frameborder="0"></iframe></html>
